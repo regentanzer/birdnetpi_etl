@@ -5,7 +5,7 @@ These are easy instructions for setting up an ETL pipeline in order to egress ag
 
 
 ## Step 0: BirdNETpi
-This assumes that you have built a birdnet on a raspberry pi and it is running on your local network. You should be able to SSH into the RPi.
+This assumes that you have built a birdnetpi (https://github.com/Nachtzuster/BirdNET-Pi) on a raspberry pi and it is running on your local network. You should be able to SSH into the RPi.
 
 Notes before starting:
 - Anything in brackets [] below and in the files need to be replaced with your information
