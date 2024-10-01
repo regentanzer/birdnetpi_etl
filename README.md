@@ -4,9 +4,6 @@ ETL Pipeline for BirdNETPi
 These are easy instructions for setting up an ETL pipeline in order to egress aggregate data from a BirdNETpi system to Google Sheets. I did this both to be able to track birds without having to be on my network and to be able to create a custom dashboard that can be shared.
 
 
-
-
-
 ## Step 0: BirdNETpi
 This assumes that you have built a birdnet on a raspberry pi and it is running on your local network. You should be able to SSH into the RPi.
 
@@ -67,13 +64,12 @@ oauth2client is a package that aids with authorization
 
 
 ## Step 4: Add Program + Credentials to Venv
-The program is called birdnet_to_sheets.py, you need to edit this file to 
+The program is called birdnet_to_sheets.py, you need to edit this file to update anything with brackets around it [].
 
 You can either save your own credentials as google_sheets_credentials.json, or paste them into the json provided. 
 
 Upload both to the virtual environment with this code: 
 scp [your_directory_location]\google_sheets_credentials.json USERNAME@BIRDNET_IP:/home/[birdnet_username]/venv/google_sheets_credentials.json
-
 scp [your_directory_location]\birdnet_to_sheets.py USERNAME@BIRDNET_IP:/home/[birdnet_username]/venv/google_sheets_credentials.json
 
 
