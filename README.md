@@ -1,5 +1,5 @@
 # birdnetpi_etl
-ETL Pipeline for BirdNETPi
+ETL Pipeline from BirdNETPi to Google Sheets
 
 These are easy instructions for setting up an ETL pipeline in order to egress aggregate data from a BirdNETpi system to Google Sheets. I did this both to be able to track birds without having to be on my network and to be able to create a custom dashboard that can be shared.
 
