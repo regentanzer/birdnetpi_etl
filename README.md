@@ -97,7 +97,7 @@ crontab -l
 
 
 ## Step 8: Display Data
-The reason why I built this was to display data in a dashboard. I connected the google sheet to a Looker Studio dashboard. Here are some examples of pages:
+The reason why I built this was to display data in a dashboard. I connected the google sheet to a Looker Studio dashboard. 
 
 
 
