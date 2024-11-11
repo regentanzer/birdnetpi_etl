@@ -97,8 +97,11 @@ crontab -l
 
 
 ## Step 8: Display Data
-The reason why I built this was to display data in a dashboard. I connected the google sheet to a Looker Studio dashboard. 
+The reason why I built this was to display data in a dashboard. I connected the google sheet to a Looker Studio dashboard. Our BirdNETpi isn't connected to bird weather, so this was the only way for us to monitor the birds when we were out of town, and to share what birds were on our property with friends and family members. 
 
+![birdnet_screenshot2](https://github.com/user-attachments/assets/17036b42-12d9-409c-93b5-7d53fd258ba9)
+
+![birdnet_screenshot1](https://github.com/user-attachments/assets/b5ddc20b-74a7-411d-be2a-9fa70767ce4a)
 
 
 ## Notes
